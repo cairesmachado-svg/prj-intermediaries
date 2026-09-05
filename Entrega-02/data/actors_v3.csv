@@ -1,0 +1,20 @@
+actor_id,actor_label,actor_type,public_private_hybrid,jurisdiction
+ACT-01,Member State competent authority (CSRD/audit oversight),regulator,public,national (EU-mandated)
+ACT-02,group auditor,intermediary,private,EU
+ACT-03,undertaking / group of undertakings,target,private,EU
+ACT-04,subsidiary-level assurance provider (independent assurance services provider / third-country auditor / statutory auditor / audit entity / audit firm - alternative eligible entity types per Art. 27a(1)(b)),intermediary,private,EU / third-country (equivalence regime)
+ACT-05,subsidiary undertaking,target,private,EU
+ACT-06,European Commission,regulator,public,EU
+ACT-07,competent body (EU Ecolabel),intermediary,hybrid,national (EU criteria)
+ACT-08,operator / applicant (EU Ecolabel),target,private,EU
+ACT-09,ISO 17025-accredited testing body,intermediary,private,EU / international standard
+ACT-10,EN 45011-accredited verification body,intermediary,private,EU / international standard
+ACT-11,European Union Ecolabelling Board (EUEB),advisory (failed relational test),public,EU
+ACT-12,benchmark administrator,intermediary (conditional),private,EU
+ACT-13,constituent companies (scored/weighted for benchmark inclusion),"target (conditional, primary)",private,EU / global issuers
+ACT-14,asset managers / investors using the benchmark label,"target (conditional, secondary/indirect)",private,EU
+ACT-15,competent authority (EU ETS),regulator,public,national (EU-mandated)
+ACT-16,verifier (accredited verification body),"role-dependent: intermediary in RIT-006, target in RIT-007 - identity is fixed, role is not (see RIT_CODEBOOK_v3.md)",private,EU
+ACT-17,operator / aircraft operator (EU ETS),target,private,EU
+ACT-18,national accreditation body,intermediary (mediates between the EU accreditation framework/ACT-19 and the verifier),public,national (Regulation (EC) No 765/2008 framework)
+ACT-19,body recognised under Article 14 of Regulation (EC) No 765/2008 (peer-evaluates national accreditation bodies),regulator,hybrid (EU-recognised peer-evaluation body),EU
